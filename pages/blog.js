@@ -1,8 +1,7 @@
-import { getAllFilesFrontMatter } from '/lib/mdx'
-import siteMetadata from '/data/siteMetadata'
-import ListLayout from '/layouts/ListLayout'
-import { PageSEO } from '/components/SEO'
-import { Heading2 } from '/components/Headings/Heading2.styles'
+import { getAllFilesFrontMatter } from '../lib/mdx'
+import siteMetadata from '../data/siteMetadata'
+import ListLayout from '../layouts/ListLayout'
+import { PageSEO } from '../components/SEO'
 import Image from 'next/image';
 
 export const POSTS_PER_PAGE = 5
